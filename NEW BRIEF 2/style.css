@@ -1,0 +1,585 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: century;
+    
+    }
+   body , html{
+    overflow-x: hidden; 
+ }
+    .tst{
+     position:fixed;
+     z-index: -1;
+  
+    }
+
+    .logo a {
+        color:rgb(0, 0, 0);
+        padding:0px 20px;
+        border:1px solid #000000;
+        position :absolute;
+        top:10px;
+        left:10px;
+        text-transform : uppercase;
+        text-decoration:none;
+        font-weight: 900;
+    }
+    
+    .logo span{
+         color: red;
+         font-weight: bold;
+         font-size: 2rem;
+
+    }
+     
+    ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 25px;
+    margin-right:990px;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: #000000;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        margin:10px;
+        font-weight: 500;
+       transition: 0.6s ease;
+    }
+
+    u li a:hover{
+        background: #ffffff;
+        color: #000000;
+    
+    }
+
+    ul li.active a{
+        background: #ffffff;
+        color: #000000;
+    }
+    .principale{
+        max-width: 114rem;
+        margin:0 auto;
+    }
+
+    .title{
+        max-width: 400px;
+        position:absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+
+    }
+    
+    
+    .title h1{
+        color: #000000;
+        font-size: 60px;
+    }
+  
+
+  .button{
+    position: absolute;
+    top:68%;
+    left: 10%;
+    
+  }
+
+  .button a{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+  }
+
+
+.click{
+    position: absolute;
+    top:135%;
+    left: 42%;
+   
+}
+
+.click a{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+  }
+
+
+  .btn{
+    transition: 00.6s ease;
+  }
+
+  .btn:hover{
+    background-color: #ffffff ;
+    color: #000000;
+  }
+
+  .flt{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt1{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt1 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.flt2{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt2 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt3{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt3 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.flt4{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt4 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt5{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt5 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt6{
+    max-width: 400px;
+    position:absolute;
+    top: 125%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt6 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt7{
+    max-width: 400px;
+    position:absolute;
+    top: 125%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt7 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt8{
+    max-width: 400px;
+    position:absolute;
+    top: 125%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt8 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt1{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt1 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.flt2{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt2 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt3{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt3 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.flt4{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt4 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt5{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt5 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt6{
+    max-width: 400px;
+    position:absolute;
+    top: 125%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt6 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt7{
+    max-width: 400px;
+    position:absolute;
+    top: 125%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt7 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.flt8{
+    max-width: 400px;
+    position:absolute;
+    top: 125%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+
+}
+
+.flt8 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.gds{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gds h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.gds1{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gds1 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.gds2{
+    max-width: 400px;
+    position:absolute;
+    top: 20%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gds2 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.gds3{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gds3 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.gds4{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gds4 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.gds5{
+    max-width: 400px;
+    position:absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gds5 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.abt h1{
+    color: #000000;
+    font-size: 40px;
+    max-width: 400px;
+    position:absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.hm{
+    color: #808080;
+    font-size: 27px;
+    max-width: 550px;
+    margin-top: 200px;
+    position:absolute;
+    top: 85%;
+    left: 35%;
+
+}
+
+.prgf{
+    color: #ffffff;
+    font-size: 17px;
+    max-width: 400px;
+    margin-top: 350px;
+    position:absolute;
+    top: 85%;
+    left: 40%;
+
+}
+
+.ig{
+    display: flex;
+    width:50px;
+    height:50px;
+    margin-left: 1555px;
+    margin-top: 40px;
+  }
+
+  .fb{
+    display: flex;
+    width:50px;
+    height:50px;
+    margin-left: 1555px;
+    margin-top: 2px;
+  }
+
+  .cts{
+    max-width: 400px;
+    position:absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.cts h1{
+    color: #000000;
+    font-size: 60px;
+}
+
+ .msg{
+    position:absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+     
+} 
+
+.Lg{
+    color: #ffffff;
+    font-size: 35px;
+    max-width: 450px;
+    margin-top: 600px;
+    position:absolute;
+    top: 85%;
+    left: 15%;
+
+}
+
+
+.foter{
+    background:url(grey.jpg) no-repeat;
+    display: flex;
+    background-size: cover;
+
+
+}
+.logoo{
+    color: rgb(0, 0, 0);
+    font-weight:10px ;
+    font-size: 40px;
+    margin-bottom: 200px;
+    right: 70px;
+}
+.foter ul{
+    padding: 50px;
+    list-style: none;
+
+}
+
+
+.quiks{
+    font-size:20px;
+    font-weight: 20px;
+}
+.Mylog{
+
+    text-align:center ;
+    margin-top: -100PX;
+}
+
+
+
+
+
+
+
