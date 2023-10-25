@@ -1,0 +1,37 @@
+
+body {
+  
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0b24c2;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+}
+
+nav {
+    background-color: #ffffff;
+    color: rgb(116, 113, 113);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 90px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Add more CSS styles for your specific design */

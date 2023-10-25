@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+ 
+ h1 {
+    color: rgba(0, 0, 0, 0.943);
+    text-align: left;
+    margin-left: 700px;
+  }
+
+  h3 {
+    color: rgb(13, 13, 142);
+    text-align: left;
+  }
+  .ig{
+    display: flex;
+    width:30px;
+    height:30px;
+  }
+  .fb{
+    display: flex ;
+    width: 30px;
+    height: 30px;
+  }
+  .pr{
+display: flex;
+margin-left: 30px;
+
+  }

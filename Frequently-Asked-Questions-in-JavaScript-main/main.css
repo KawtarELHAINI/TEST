@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(#000,#461111);
+    
+}
+a{
+    text-decoration: 0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+    padding: 15px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.header__menu {
+    display: flex;
+}
+.header__menu a {
+    margin-left: 20px;
+    padding-bottom: 3px;
+    position: relative;
+}
+.header__menu a:hover{
+    background-color: #5b0000 ;
+    color: #ffffff;
+
+}
+.title{
+    max-width: 400px;
+    position:absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #ffffff;
+    font-size: 70px;
+}
+.paragraph{
+    font-size: 20px;
+    top: 120%;
+    color: #ffffff;  
+}
+.button{
+position: absolute;
+top:58%;
+left: 20%;
+}
+.button a{
+color: #ffffff;
+text-decoration: none;
+border: 1px solid #ffffff;
+padding: 10px 20px;
+}
+.btn:hover{
+    background-color: #ffffff ;
+    color: #000000;
+  }
+ .titre{
+    color: red;
+    margin-left: 45%;
+    font-size: 20px;
+ }
+  .footer-section{
+    display: flex;
+    background-image: url(img/horserunning1.jpg);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+    
+}
+.footer-title{
+    font-family: 'Inter';
+    font-style: initial;
+    margin-left: 80px;
+    font-size: 55px;
+    margin-top: 80px;
+}
+.caballos{
+    color: rgb(110, 0, 0);
+    font-family: 'Inter';
+    font-style: initial;
+    font-size: 45px;
+}
+.footer-links{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.quick-links{
+    font-family: 'Inter';
+    font-style: initial;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.footer-btn{
+    color: rgb(0, 0, 0);
+
+}
+#contact-section{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.contact-us{
+    font-family: 'Inter';
+    font-style: initial;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    color: black;
+}
+.contact-input{
+    background-color: rgb(255, 255, 255);
+    margin-top: 3px;
+    padding-right: 120px;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-input::placeholder{
+    color: rgb(50, 50, 50);
+}
+
+.contact-input-msg{
+    background-color: rgb(255, 255, 255);
+    margin-top: 3px;
+    margin-bottom: 30px;
+    padding-right: 132px;
+    padding-left: 5px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-input-msg::placeholder{
+    color: rgb(50, 50, 50);
+}
+
+.contact-done{
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    margin-left: 25px;
+}
+.hrs h1{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.hrs1{
+    max-width: 200px;
+    position:absolute;
+    top: 102%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+.hrs2{
+    max-width: 200px;
+    position:absolute;
+    top: 102%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+.hrs3{
+    max-width: 200px;
+    position:absolute;
+    top: 102%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+/******************test************************/
+.container {
+    position: relative;
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px
+            rgba(0, 0, 0, 0.5));
+  }
+  
+  .accordion {
+    position: relative;
+    width: 350px;
+    margin-left: 40px;
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .content-accordion {
+    margin-top: 35px;
+    margin-right: 50px;
+  }
+  
+  .question-answer {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accordion-img {
+    position: relative;
+    width: 320px;
+  }
+  
+  .title-question {
+    margin: 1.4rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .up-icon {
+    display: none;
+  }
+  
+  .answer {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    display: none;
+  }
+  
+  .show-text .answer {
+    display: block;
+  }
+  
+  .show-text .up-icon {
+    display: inline;
+  }
+  
+  .show-text .down-icon {
+    display: none;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .accordion {
+      width: 920px;
+      height: 0;
+      display: flex;
+    }
+  
+    .accordion-img {
+      position: relative;
+      width: 420px;
+      top: 88px;
+    }
+  
+    .question-answer {
+      width: 380px;
+    }
+  
+    .content-accordion {
+      margin-top: 85px;
+    }
+  
+    .title {
+      margin-top: 50px;
+      font-size: 3rem;
+    }
+  }
