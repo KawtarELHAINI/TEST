@@ -15,29 +15,27 @@ questions.forEach(function(question) {
 
 
 
-/***********************   validation page contacte     *********** */
+/***********************   validation page contact   *********** */
 
 let email_input = document.getElementsByClassName("contact-input");
 
 for (let i = 0; i <= email_input.length; i++) {
-  email_input[i].addEventListener("invalid", () => {
-    input_error(email_input[i]);
-  });
+  email_input[i].addEventListener("invalid", () => {input_error(email_input[i]); });
 
   email_input[i].addEventListener("input", () => {
     input_error(email_input[i]);
   });
 }
-console.log(email_input[i]);
+
 
 function input_error(x) {
   if (x.validity.valueMissing) {
-    x.setCustomValidity("Vous n'avez saisi aucune donnée dans ce champ.");
+    x.setCustomValidity("Vous n'avez saisi aucune donnée dans ce champs");
   } else if (x.validity.typeMismatch) {
     x.setCustomValidity("Données invalides");
   } else {
     x.setCustomValidity("");
     return true;
   }
-  document.getElementById("error_message").innerText = x.validationMessage;
+ 
 }
